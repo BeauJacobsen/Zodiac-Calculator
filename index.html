@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>chineseZodiac.html</title>
+    <script>
+      function animalFinder()
+      {
+        //1) get the year from the user
+        //2) Using "if - statements" and % (mod) determine animal
+        //3) Display animal
+        document.getElementById("pic").innerHTML = "<img src = 'rat.png'>";
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Zodiac Years</h2>
+    <input type= "text" id = "year">
+    <input type = "button" value = "Enter" onclick = "animalFinder()">
+    <br>
+    <span id = "pic"></span>
+  </body>
+</html>
